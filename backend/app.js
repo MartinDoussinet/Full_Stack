@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose = require('mongoose');
-
 const Thing = require('./models/Thing');
 
 mongoose.connect('mongodb+srv://MartinDoussinet:MartinDoussinet@cluster0.ru3ermo.mongodb.net/?retryWrites=true&w=majority', 
